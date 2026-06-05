@@ -6,7 +6,7 @@
     "framework": "pytorch-checkpoint",
     "license": "MIT",
     "repo_url": "https://github.com/tomkaba/poker44-miner-gen22full1",
-    "repo_commit": "PENDING_GIT_COMMIT",
+    "repo_commit": "b3e7b47cecb510274a9096620a269536288e37d6",
     "inference_mode": "local",
     "training_data_statement": "Uses the gen22_hybrid_full_0.0595 checkpoint with vote101 runtime aggregation, minichunk threshold 0.0595, and parent cutoff 76/101.",
     "data_attestation": "This miner does not train on validator-private human data.",
@@ -25,6 +25,6 @@
         "poker44/utils/model_manifest.py",
         "poker44/validator/synapse.py"
     ],
-    "implementation_sha256": "dfd26df962f82ef646237867c9ebefcd288ff115ae47e66ee9cd99e45acdae4a",
+    "implementation_sha256": "a42f5c461ef8bd9c82ba411ec5bb40cc5e7271526dc81cfd940f9a2aa53a7790",
     "notes": "gen22 hybrid full checkpoint scored with deterministic vote101 sampling, minichunk threshold 0.0595, and parent cutoff 76/101."
 }
