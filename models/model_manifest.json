@@ -20,11 +20,13 @@
         "poker44/base/neuron.py",
         "poker44/gen20_hybrid_model.py",
         "poker44/miner_heuristics.py",
+        "poker44_ml/__init__.py",
+        "poker44_ml/features.py",
         "poker44/utils/config.py",
         "poker44/utils/misc.py",
         "poker44/utils/model_manifest.py",
         "poker44/validator/synapse.py"
     ],
-    "implementation_sha256": "a42f5c461ef8bd9c82ba411ec5bb40cc5e7271526dc81cfd940f9a2aa53a7790",
+    "implementation_sha256": "5ec0244398455c943509f35cc027fdcdfa52ad13a8627a27ea9d36a654113d76",
     "notes": "gen22 hybrid full checkpoint scored with deterministic vote101 sampling, minichunk threshold 0.0595, and parent cutoff 76/101."
 }
